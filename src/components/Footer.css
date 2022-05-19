@@ -1,0 +1,10 @@
+.card {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: #FFFF81;
+}
+
