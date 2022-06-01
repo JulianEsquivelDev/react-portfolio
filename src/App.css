@@ -2,3 +2,28 @@ body {
     background-color: black;
     color: white;
 }
+
+.portfolio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    
+  }
+  
+.p-card{
+    padding: 20px;
+    margin-top: 10px;
+    border: solid 2px #FFFF81;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.card-title{
+    color: #3300FF;
+    margin-top: 20px;
+}

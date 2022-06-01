@@ -5,9 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/Navbar';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  Routes,
+  Route
 } from "react-router-dom";
 import Home from './components/pages/Home';
 import styled from 'styled-components';
@@ -21,14 +20,14 @@ function App() {
   return (
     <>
       <Router>
-      <Navbar/>
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/Contact' exact component={Contact} />
-        <Route path='/AboutMe' exact component={About} />
-        <Route path='/Portfolio' exact component={Portfolio} />
-        <Route path='/Resume' exact component={Resume} />
-      </Switch>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Contact' element={<Contact />} />
+        <Route path='/AboutMe' element={<About />} />
+        <Route path='/Portfolio' element={<Portfolio />} />
+        <Route path='/Resume' element={<Resume />} />
+      </Routes>
       </Router>
     </>
   );

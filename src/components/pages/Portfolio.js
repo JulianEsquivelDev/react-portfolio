@@ -1,24 +1,22 @@
 import React from "react";
 import Footer from '../Footer';
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
+import '../../../src/App'
+
+
+
 
 function Portfolio() {
     return (
         <>
-    <Card style={{ width: '200px' }}>
-    <Card.Img variant="top" src="" />
-    <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-        Some quick example text to build on the card title and make up the bulk of
-        the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-    </Card.Body>
-    </Card>
-
-           <Footer />
+        <div className="portfolio-container">
+          <h3 className="card-title">Work Day Scheduler</h3>
+          <div className="p-card"><img src="/images/workday.png" alt="workday"></img></div>
+          <h3 className="card-title">Math Quiz</h3>
+          <div className="p-card"><img src="/images/quiz.png" alt="quiz"></img></div>
+          <h3 className="card-title">Run Buddy landing page</h3>
+          <div className="p-card"><img src="/images/runbuddy.png" alt="runbuddy"></img></div>
+        </div>
+     <Footer></Footer>
         </>
     )
 }
