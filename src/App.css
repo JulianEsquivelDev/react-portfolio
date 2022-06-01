@@ -83,3 +83,13 @@ img{
 .skill-title{
     color: #3300FF;
 }
+
+.contact-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: -200px;
+    color: #3300FF;
+    
+}

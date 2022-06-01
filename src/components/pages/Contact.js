@@ -3,10 +3,12 @@ import Hero from '../Hero';
 import Footer from '../Footer';
 import styled from 'styled-components';
 
+import '../../../src/App'
+
 const Card = styled.div`
   background-color: transparent;
   border-radius: 25px;
-  border: solid 8px white;
+  border: solid 8px #FFFF81;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -29,12 +31,13 @@ function Contact() {
         padding: "10px",
         margin: "10px",
         borderRadius: "25px",
-        border: "solid 5px turquoise",
+        border: "solid 5px #3300FF",
         backgroundColor: "transparent",
         color: "white"
     }
     return (
         <>
+        <h1 className="contact-title">Contact Me</h1>
     <Card>
         <Form >
         <input name="name" type="text"  placeholder="Name" style={inputStyle}/>   
