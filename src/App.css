@@ -27,3 +27,59 @@ img{
     color: #3300FF;
     margin-top: 20px;
 }
+
+.resume-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 3px #FFFF81;
+    margin: 50px;
+}
+
+.resume-title-container{
+    background-color: #3300FF;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFF81;
+    margin-bottom: 20px;
+}
+
+.resume-content{
+    
+}
+
+.experience-container{
+    margin: 10px;
+}
+
+.experience-list{
+    color: black;
+    border: solid 4px #FFFF81;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-title{
+    color: #3300FF;
+}
+
+.education-container{
+    margin: 10px;
+}
+
+.skill-container{
+    margin: 10px;
+}
+
+.education-title{
+    color: #3300FF;
+}
+
+.skill-title{
+    color: #3300FF;
+}

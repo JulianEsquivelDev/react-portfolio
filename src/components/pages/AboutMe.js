@@ -70,11 +70,11 @@ function About() {
             </AboutSection>
             <Front>
                 <h1 style={{paddingTop: "15px", borderRight: "solid 1px #3300FF", }}>Front-end</h1>
-                <p style={{color: "black", paddingTop: "35px" }}>I am really good at building the design aspect of a website using technologies like HTML, CSS, JavaScript, React.</p>
+                <p style={{color: "black", paddingTop: "35px", paddingLeft: "10px" }}>I have developed my skills in the design aspect of a website using technologies like HTML, CSS, JavaScript, React.</p>
             </Front>
             <Back>
-            <h1 style={{paddingTop: "15px", borderRight: "solid 1px #3300FF", }}>Back-end</h1>
-                <p style={{color: "black", paddingTop: "35px" }}>I am really good at building the design aspect of a website using technologies like HTML, CSS, JavaScript, React.</p>
+            <h1 style={{paddingTop: "30px", borderRight: "solid 1px #3300FF", padding: "5px" }}>Back-end</h1>
+                <p style={{color: "black", paddingTop: "35px", paddingLeft: "10px" }}>Proficient in developing and maintaining servers, apis, and databases.</p>
             </Back>
            </Header>
            <Footer />

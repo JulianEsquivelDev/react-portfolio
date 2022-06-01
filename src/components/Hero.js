@@ -30,7 +30,7 @@ function  Hero(){
   
   <div class="column">
     <h2></h2>
-    <p className="mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <p className="mainText">Hello, my name is Julian Esquivel and I am a web developer. I am proficient in both front-end and back-end development. I am 22 years old. I currently reside in Miami, Fl.</p>
   </div>
 </div>
 <h1 className="linksTitle"> Links </h1>
